@@ -18,6 +18,12 @@ p {
   text-align: justify;
 }
 
+p1 {
+  margin: 0px;
+  text-align: left;
+}
+
+
 .verticalWrap {
   margin: auto;
   width: 100%;
