@@ -1,11 +1,26 @@
 <html>
 <head>
-    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <meta name="description" content="Personal website of Yang Zhong. Yang is a postdoctoral research fellow in the Department of Economics at University of Warwick..">
     <title>Yang Zhong</title>
     <link rel="canonical" href="/" />
+
+    <!-- Responsive override: shrink the big desktop gap on smaller screens -->
+    <style>
+      /* phones: shrink the gap */
+      @media (max-width: 640px) {
+        #container2 { margin-bottom: 24px !important; }
+      }
+
+      /* tablets: medium gap */
+      @media (min-width: 641px) and (max-width: 1024px) {
+        #container2 { margin-bottom: 120px !important; }
+      }
+
+      /* desktops keep your inline 450px (no change) */
+    </style>
 </head>
 
 <body>
@@ -223,9 +238,5 @@
         }
     </script>
 
-
-
-
 </body>
-
 </html>
